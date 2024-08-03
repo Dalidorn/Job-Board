@@ -4,7 +4,6 @@
 </script>
 
 <main>
-    <a href="/search">Search</a>
     <h2>Companies</h2>
     <ul>
         {#each companies as company}
@@ -14,3 +13,27 @@
         {/each}
     </ul>
 </main>
+
+<style>
+    main {
+        margin: 2rem;
+        color: white;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 1rem;
+    }
+
+    a {
+        color: lightgreen;
+    }
+
+    a:hover {
+        color: green;
+    }
+</style>

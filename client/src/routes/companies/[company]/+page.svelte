@@ -4,8 +4,6 @@
 </script>
 
 <main>
-    <a href="/companies">Back to Companies</a>
-
     <h2>{company.name}</h2>
 
     <p><strong>Industry:</strong> {company.industry}</p>
@@ -32,3 +30,35 @@
         </li>
     </ul>
 </main>
+
+<style>
+    main {
+        margin: 2rem;
+        color: white;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        margin-top: 2rem;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 1rem;
+    }
+
+    a {
+        color: lightgreen;
+    }
+
+    a:hover {
+        color: green;
+    }
+</style>

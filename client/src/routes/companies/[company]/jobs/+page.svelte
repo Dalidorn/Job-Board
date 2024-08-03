@@ -17,3 +17,31 @@
         {/each}
     </ul>
 </main>
+
+<style>
+    main {
+        margin: 2rem;
+        color: white;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 1rem;
+    }
+
+    a {
+        color: lightgreen;
+    }
+
+    a:hover {
+        color: green;
+    }
+</style>

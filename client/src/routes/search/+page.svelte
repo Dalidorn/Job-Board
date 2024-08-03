@@ -4,7 +4,13 @@
 </script>
 
 <main>
-    <h2>Search Results</h2>
+    <h2>Placeholder Search Menu</h2>
+
+    <input type="text" placeholder="Search for jobs" />
+    <button>Search</button>
+
+    
+    <h2>Placeholder Results</h2>
 
     <h3>Companies</h3>
     <ul>
@@ -28,3 +34,35 @@
         {/each}
     </ul>
 </main>
+
+<style>
+    main {
+        margin: 2rem;
+        color: white;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        margin-top: 2rem;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 1rem;
+    }
+
+    a {
+        color: lightgreen;
+    }
+
+    a:hover {
+        color: green;
+    }
+</style>

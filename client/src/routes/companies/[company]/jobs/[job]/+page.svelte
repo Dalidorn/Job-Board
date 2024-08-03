@@ -4,7 +4,6 @@
 </script>
 
 <main>
-    <a href="/search">Back</a>
     <h2>{job.title}</h2>
     <a href={`/companies/${company.name}`}>at {company.name}</a>
 
@@ -25,3 +24,27 @@
     <h3>Application Process</h3>
     <p>{job.applicationProcess}</p>
 </main>
+
+
+<style>
+    main {
+        margin: 2rem;
+        color: white;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        margin-top: 2rem;
+    }
+
+    a {
+        color: lightgreen;
+    }
+
+    a:hover {
+        color: green;
+    }
+</style>
