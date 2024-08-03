@@ -1,22 +1,11 @@
 <script>
-    //filler data
-    export let company = {
-        name: "TestCompany123",
-        overview:
-            "TestCompany123 is a fictional company used for testing purposes.",
-        industry: "Testing Industry",
-        size: "10-50 employees",
-        culture: "Friendly and fictional",
-        website: "https://testcompany123.fake",
-        socialMedia: {
-            linkedin: "https://linkedin.com/company/testcompany123",
-            twitter: "https://twitter.com/testcompany123",
-            facebook: "https://facebook.com/testcompany123",
-        },
-    };
+    export let data;
+    const { company } = data;
 </script>
 
 <main>
+    <a href="/companies">Back to Companies</a>
+
     <h2>{company.name}</h2>
 
     <p><strong>Industry:</strong> {company.industry}</p>
@@ -25,6 +14,8 @@
 
     <h3>Overview</h3>
     <p>{company.overview}</p>
+
+    <a href="/companies/{company.name}/jobs">View Current Listings</a>
 
     <h3>Website</h3>
     <p><a href={company.website} target="_blank">{company.website}</a></p>
